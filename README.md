@@ -52,23 +52,23 @@ This is one way to run your app — you can also run it directly from within And
 
 create a React Native application that meets all the specified requirements using Redux for state management and Axios for fetching data from an API. I'll use a fake API endpoint for demonstration purposes, ensuring we handle large lists efficiently with FlatList and implementing necessary error handling.
 
-<!-- Step 1: Project Setup -->
+### Project Setup
 Make sure you have Node.js installed and set up a new React Native project using React Native ClI for quick setup:
 
-<!-- Step 2: Install Necessary Packages -->
+### Install Necessary Packages
  need Redux for state management, React Redux for React bindings, Redux Toolkit for simplifying Redux setup, and Axios for HTTP requests:
 
-<!-- Step 3: Configure Redux Store -->
+### Configure Redux Store
 Create a store.js in the root of  project:
 
-<!-- Step 4: Create Redux State Slice -->
+### Create Redux State Slice
 Set up  redux/postreducer.js:
 
 
-<!-- Step 5: Create the Component PostsList.js -->
+### Create the component 
 This component fetches posts and displays them using FlatList:
 
-<!-- Step 6: Update App.js -->
+### Update App.js
 Include the Redux provider:
 
 
